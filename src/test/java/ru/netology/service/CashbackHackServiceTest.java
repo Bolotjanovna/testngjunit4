@@ -6,7 +6,6 @@ import static org.testng.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @org.testng.annotations.Test
-    @org.junit.Test
     public void testRemain() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
@@ -15,7 +14,6 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
     @org.testng.annotations.Test
-    @org.junit.Test
     public void testBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
